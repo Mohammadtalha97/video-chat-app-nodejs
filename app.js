@@ -13,9 +13,9 @@ app.use(cors());
 
 const PORT = process.env.PORT || 3000;
 
-// app.get('/', (req, res) => {
-//     res.send('Hi')
-// });
+app.get('/', (req, res) => {
+    res.send('Server Is Running')
+});
 
 //socket is used to real time data transfer image, msg, video
 
